@@ -16,14 +16,11 @@ namespace DesafioPOO.Models
         public Nokia(string numero, string modelo, string imei, int memoria)
         {
             Numero = numero;
-            Modelo = modelo;
-            IMEI = imei;
-            Memoria = memoria;
         }
 
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine($"Instalando aplicativo {nomeApp} no celular {Modelo} de número {Numero} e IMEI {IMEI} com {Memoria}GBs de memória ");
+            Console.WriteLine($"Instalando aplicativo {nomeApp} no celular Nokia");
         }
     }
 }
